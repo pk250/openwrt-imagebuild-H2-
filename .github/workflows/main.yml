@@ -33,5 +33,5 @@ jobs:
     - name: update
       run: |
         ./scripts/feeds update -a
-        ./scripts
+        ./scripts/feeds install -a
         echo test, and deploy your project.
