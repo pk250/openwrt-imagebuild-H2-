@@ -30,6 +30,6 @@ jobs:
       run: |
         ls -al
         pwd
-        sudo chmod u+x scripts/feeds
+        sudo chmod -f u+x scripts/feeds
         ./scripts/feeds update -a
         ./scripts/feeds install -a
