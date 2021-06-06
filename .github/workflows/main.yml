@@ -32,5 +32,6 @@ jobs:
     # Runs a set of commands using the runners shell
     - name: update
       run: |
+        chomd u+x scripts/feeds
         ./scripts/feeds update -a
         ./scripts/feeds install -a
